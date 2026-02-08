@@ -1,0 +1,35 @@
+PS C:\Users\pf4a3> python
+Python 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> gram1 = 25
+>>> harga_beli1 = 650000
+>>> harga_sekarang = 685000
+>>>  #hitung keutangan dalam rupiah
+>>> total_beli1 = gram1 * harga_beli1
+>>> total_sekarang = gram1 * harga_sekarang
+>>> untung_rp1 =total_sekarang - total_beli1
+>>> #hitung keuntungan dalam presentase
+>>> untung_persen1 = (untung_rp1 / total_beli1) * 100
+>>> print("untung Rp: ", untung_rp1)
+untung Rp:  875000
+>>> print("untung %: ", untung_persen1)
+untung %:  5.384615384615385
+>>> #tambah pembelian
+>>> gram2 = 15
+>>> harga_beli2= 685000
+>>> #total kepemilikan
+>>> total_gram = gram1 + gram2
+>>> total_modal = (gram1 * harga_beli1) + (gram2 * harga_beli2)
+>>> #harga emas baru
+>>> harga_baru = 715000
+>>> total_nilai_baru = total_gram * harga_baru
+>>> #hitung keuntungan akhir
+>>> untung_rp2 = total_nilai_baru - total_modal
+>>> untung_persen2 = (untung_rp2 / total_modal) * 100
+>>> print("Total Modal: ", total_modal)
+Total Modal:  26525000
+>>> print("Untung Rp: ", untung_rp2)
+Untung Rp:  2075000
+>>> print("Untung %: ", untung_persen2)
+Untung %:  7.822808671065033
+>>>
