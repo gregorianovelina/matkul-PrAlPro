@@ -1,0 +1,14 @@
+PS C:\Users\pf4a3> python
+Python 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> # modal awal
+>>> p = 200000000
+>>> # target dana
+>>> a = 400000000
+>>> # bunga 10% per tahun
+>>> r = 0.10
+>>> import math
+>>> t = math.log(a / p) / math.log(1 + r)
+>>> t
+7.272540897341713
+>>>
